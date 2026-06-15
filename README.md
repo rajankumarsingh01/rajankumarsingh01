@@ -167,7 +167,7 @@ I'm a final-year B.Tech CSE student and MERN Stack Developer who builds and **sh
 <p align="center">
   <a href="https://linkedin.com/in/rajankumarsingh01"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="https://github.com/rajankumarsingh01"><img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/></a>
-  <a href="https://qr-food-ordering-system-nine.vercel.app"><img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139"/></a>
+  <a href="https://rajankumarsingh.me/"><img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139"/></a>
 </p>
 
 [![](https://visitcount.itsvg.in/api?id=rajankumarsingh01&icon=0&color=0)](https://visitcount.itsvg.in)
