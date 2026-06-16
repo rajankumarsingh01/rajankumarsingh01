@@ -138,12 +138,23 @@ I'm a final-year B.Tech CSE student and MERN Stack Developer who builds and **sh
 ![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white)
 
 ---
-
+<!--
 ## 📊 GitHub Stats
 
 ![](https://github-readme-stats.vercel.app/api?username=rajankumarsingh01&theme=dark&hide_border=false&include_all_commits=true&count_private=false)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=rajankumarsingh01&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=rajankumarsingh01&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
+-->
+## 📊 GitHub Analytics
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=rajankumarsingh01&show_icons=true&theme=tokyonight" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajankumarsingh01&layout=compact&theme=tokyonight" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rajankumarsingh01&theme=tokyonight" />
+</p>
 
 ---
 
