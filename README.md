@@ -1,129 +1,110 @@
-<h1 align="center">Hi 👋, I'm Rajan Kumar Singh</h1>
-<h3 align="center">🚀 Full Stack MERN Developer | Real-time Apps | AI Integrations | Production Deployments</h3>
+<h1 align="center">Hi, I'm Rajan Kumar Singh 👋</h1>
+<h3 align="center">Full-Stack MERN Developer building production systems with Agentic AI</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Full+Stack+MERN+Developer;Next.js+%7C+Node.js+%7C+MongoDB;Real-time+Apps+with+Socket.IO;AI+Integrated+Web+Applications;Dockerized+Production+Deployments&center=true&width=600&height=45">
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1000&center=true&width=650&lines=Full+Stack+MERN+Developer;Node.js+%7C+React+%7C+MongoDB+%7C+PostgreSQL;Agentic+AI+%7C+LangGraph+%7C+LLM+Integrations;Event-Driven+Systems+with+RabbitMQ+%2B+Kubernetes;Shipping+Production-Grade+Deployments">
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/rajankumarsingh01/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:cpsrajan2002@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://rajankumarsingh.me/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=firefox&logoColor=#FF7139"/></a>
+  <a href="https://leetcode.com/u/rajankumarsingh02/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/></a>
 </p>
 
 ---
 
-## 💫 About Me
+### 💫 About Me
 
-I'm a final-year B.Tech CSE student and MERN Stack Developer who builds and **ships production-ready web applications** — not just tutorials.
-
-- 🔭 Currently building: AI-integrated and real-time full-stack apps
-- 🛠️ Stack: React, Next.js, Node.js, MongoDB, Redis, Socket.IO, Docker
-- 🤖 Experienced with: Gemini AI, OpenRouter API, Razorpay, Cloudinary, Resend
-- 🚀 All my projects are **live and deployed** on Vercel + Render
-- 📫 Reach me at: **rajankrsingh200@gmail.com**
-- 💼 Open to: Internship / Full-time roles
+- 🎓 Final-year B.Tech CSE student, building **production-ready systems**, not tutorial clones.
+- 🧠 Core focus: **MERN stack + Agentic AI** — multi-agent pipelines, LLM-based automation, event-driven architecture.
+- 🛠️ Comfortable across the stack: React/Next.js on the frontend, Node.js/Express on the backend, MongoDB/PostgreSQL/Redis for data, Docker/Kubernetes for deployment.
+- 🚀 Every major project below is **live, deployed, and testable** — not just source code.
+- 📫 Reach me: **cpsrajan2002@gmail.com**
+- 💼 Open to: **MERN / Full-Stack Developer internships & entry-level roles**, especially at startups building AI-integrated products.
 
 ---
 
-## 🚀 Featured Projects
+## 🔥 Featured Projects
+
+### 🤖 AI-Augmented API Observability & Auto-Remediation Platform
+> Event-driven API monitoring system with an agentic AI layer that detects, diagnoses, and autonomously remediates production incidents.
+
+- Built a **4-stage agentic pipeline**: rule-based Alerting → statistical Anomaly Detection (Z-score) → LLM-based Root Cause Analysis → risk-scored Auto-Remediation via the Kubernetes API, with human-in-the-loop approval for high-risk actions.
+- Engineered reliability patterns from scratch: **Circuit Breaker**, exponential-backoff retries, **Dead Letter Queues**, idempotent consumers, and end-to-end correlation-ID tracing across 7 services.
+- Stack: `Node.js` `RabbitMQ` `MongoDB` `PostgreSQL` `React (Vite)` `Kubernetes` `OpenRouter LLM API`
+- 🔗 GitHub: **[ADD REPO LINK]**
+
+---
+
+### 🎓 Kaksha — Multi-Tenant Coaching Institute SaaS
+> Full-stack SaaS platform digitizing coaching institute operations across 5 roles, with an AI doubt-solving tutor built in.
+
+- Architected **multi-tenant data isolation** with a clean `Route → Controller → Service → Repository → Model` layering, serving Super Admin, Admin, Teacher, Student, and Parent roles.
+- JWT access/refresh authentication + role-based access control across 20+ API modules; Razorpay payments with webhook signature verification.
+- Shipped a React Native (Expo) mobile app alongside the admin web dashboard; passed a **118-file internal security audit**.
+- Stack: `Node.js` `Express` `MongoDB` `React` `React Native (Expo)` `Socket.IO` `Razorpay` `OpenRouter LLM API`
+- 🔗 GitHub: **[ADD REPO LINK]**
+
+---
 
 ### 🍽️ QR Food Ordering System
-> Multi-role restaurant platform with real-time order tracking, AI chatbot, and payment integration
+> QR-based restaurant ordering platform with a tool-calling AI chatbot and full real-time order pipeline.
 
-- **Tech:** Next.js, TypeScript, Node.js, MongoDB, Redis, Socket.IO, Razorpay, Gemini AI, Docker
-- ⚡ Real-time kitchen & admin feeds with sub-second updates via Socket.IO
-- 📊 Analytics dashboard with Redis caching for performance
-- 🐳 Containerized with multi-stage Docker builds
+- Deployed end-to-end (Vercel + Render); customers scan → browse → chat with an AI assistant → pay → track live.
+- AI chatbot (Gemini via OpenRouter) uses **native function-calling** (`search_menu`, `get_order_status`) with Redis-backed session memory — grounded in real data, not hallucinated.
+- **76 automated tests** (Jest + Supertest) with a GitHub Actions CI/CD pipeline; Sentry error monitoring in production.
+- Stack: `Next.js` `TypeScript` `Node.js` `MongoDB` `Redis` `Socket.IO` `Razorpay`
 - 🔗 [Live Demo](https://qr-food-ordering-system-nine.vercel.app) • [GitHub](https://github.com/rajankumarsingh01/qr_food_ordering_system)
 
 ---
 
-### 📄 DocFinder
-> Platform to help users recover lost documents across India via claim-based matching
+<details>
+<summary><b>📦 More Projects</b> (click to expand)</summary>
+<br>
 
-- **Tech:** React, Node.js, Express, MongoDB, Cloudinary, JWT, Resend
-- 🔐 JWT auth with password reset via email
-- 📧 Automated email notifications at every claim step
-- 🔗 [Live Demo](https://docfounder-india.vercel.app/) • [GitHub](https://github.com/rajankumarsingh01/docfounder_india)
+| Project | Description | Stack | Links |
+|---|---|---|---|
+| **CampusOne** | Multi-role grievance/complaint management app (mobile + admin) | React Native (Expo), Node.js, MongoDB | *[ADD LINK]* |
+| **AutoOps AI** | Agentic infrastructure monitoring system | Node.js, AI Agents | *[ADD LINK]* |
+| **DocFinder** | Claim-based platform to recover lost documents across India | React, Node.js, MongoDB, Cloudinary | [Live](https://docfounder-india.vercel.app/) • [GitHub](https://github.com/rajankumarsingh01/docfounder_india) |
+| **AI Interview Platform** | Voice-interactive AI mock-interview tool with performance analytics | React, Node.js, Firebase, OpenRouter | [Live](https://ai-interview-platform-client.onrender.com/) • [GitHub](https://github.com/rajankumarsingh01/AI_Interview_Platform) |
 
----
-
-### 🎯 AI Interview Platform
-> AI-powered interview preparation with voice interaction and performance analytics
-
-- **Tech:** React.js, Node.js, MongoDB, Firebase, OpenRouter API, Razorpay
-- 🎤 Voice + text interaction using Web Speech APIs
-- 📈 Analytics dashboard with AI-generated feedback
-- 🔗 [Live Demo](https://ai-interview-platform-client.onrender.com/) • [GitHub](https://github.com/rajankumarsingh01/AI_Interview_Platform)
+</details>
 
 ---
 
-## 💻 Tech Stack
+## 🛠️ Tech Stack
 
-### Frontend
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+**Languages:** ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
-### Backend
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101)
+**Frontend:** ![React](https://img.shields.io/badge/-React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white) ![Redux](https://img.shields.io/badge/-Redux-593D88?style=flat-square&logo=redux&logoColor=white) ![Tailwind](https://img.shields.io/badge/-TailwindCSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
 
-### Database & Caching
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
+**Backend:** ![Node.js](https://img.shields.io/badge/-Node.js-6DA55F?style=flat-square&logo=node.js&logoColor=white) ![Express](https://img.shields.io/badge/-Express-404D59?style=flat-square&logo=express) ![Socket.IO](https://img.shields.io/badge/-Socket.IO-010101?style=flat-square&logo=socket.io)
 
-### Auth & Security
-![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
-![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
+**Databases:** ![MongoDB](https://img.shields.io/badge/-MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
-### DevOps & Tools
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
-![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+**AI / Agentic Systems:** ![LangGraph](https://img.shields.io/badge/-LangGraph-1C3C3C?style=flat-square) ![OpenRouter](https://img.shields.io/badge/-OpenRouter-000000?style=flat-square) ![Gemini](https://img.shields.io/badge/-Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
 
-### Integrations
-![Razorpay](https://img.shields.io/badge/Razorpay-02042B?style=for-the-badge&logo=razorpay&logoColor=3395FF)
-![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white)
+**DevOps & Infra:** ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![RabbitMQ](https://img.shields.io/badge/-RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+**Tools & Integrations:** ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white) ![Postman](https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=postman&logoColor=white) ![Razorpay](https://img.shields.io/badge/-Razorpay-02042B?style=flat-square&logo=razorpay) ![Cloudinary](https://img.shields.io/badge/-Cloudinary-3448C5?style=flat-square&logo=cloudinary&logoColor=white)
 
 ---
 
-## 📊 GitHub Analytics
+## 📊 GitHub Stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=rajankumarsingh01&show_icons=true&theme=tokyonight" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajankumarsingh01&layout=compact&theme=tokyonight" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=rajankumarsingh01&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajankumarsingh01&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=rajankumarsingh01&theme=tokyonight" />
+  <img src="https://streak-stats.demolab.com/?user=rajankumarsingh01&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=rajankumarsingh01&theme=radical&no-frame=false&no-bg=true&margin-w=4)
-
----
-
-<!-- Snake Game -->
-<div align="center">
-  <img src="https://profile-readme-generator.com/assets/snake.svg" alt="Snake animation" />
-</div>
-
----
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
----
-
 <p align="center">
-  <a href="https://linkedin.com/in/rajankumarsingh01"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://github.com/rajankumarsingh01"><img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/></a>
-  <a href="https://rajankumarsingh.me/"><img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139"/></a>
+  <sub>Building at the intersection of full-stack engineering and agentic AI — one deployed project at a time.</sub>
 </p>
-
-[![](https://visitcount.itsvg.in/api?id=rajankumarsingh01&icon=0&color=0)](https://visitcount.itsvg.in)
