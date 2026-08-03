@@ -92,6 +92,14 @@
 
 ---
 
+## 🌱 Currently Exploring
+
+![Kubernetes](https://img.shields.io/badge/-Kubernetes%20(kind%2Fk3d)-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![LangGraph](https://img.shields.io/badge/-Multi--Agent%20Orchestration-1C3C3C?style=flat-square) ![System Design](https://img.shields.io/badge/-High--Scale%20System%20Design-4B0082?style=flat-square)
+
+Deepening my understanding of container orchestration, multi-agent AI pipelines, and distributed system design — going beyond "it works" to "I can explain every design decision."
+
+---
+
 ## 📊 GitHub Stats
 
 <p align="center">
@@ -103,7 +111,31 @@
   <img src="https://streak-stats.demolab.com/?user=rajankumarsingh01&theme=tokyonight&hide_border=true" />
 </p>
 
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rajankumarsingh01&theme=tokyo-night&hide_border=true" width="100%"/>
+</p>
+
 ---
+
+## 🏆 GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=rajankumarsingh01&theme=tokyonight&no-frame=true&margin-w=8&row=1" />
+</p>
+
+---
+
+## 🐍 Contribution Snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/rajankumarsingh01/rajankumarsingh01/output/github-contribution-grid-snake.svg" alt="Contribution Snake animation" />
+</p>
+
+---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=rajankumarsingh01&style=flat-square&color=blue&label=Profile+Views" />
+</p>
 
 <p align="center">
   <sub>Building at the intersection of full-stack engineering and agentic AI — one deployed project at a time.</sub>
