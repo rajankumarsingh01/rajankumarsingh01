@@ -44,7 +44,7 @@
 - JWT access/refresh authentication + role-based access control across 20+ API modules; Razorpay payments with webhook signature verification.
 - Shipped a React Native (Expo) mobile app alongside the admin web dashboard; passed a **118-file internal security audit**.
 - Stack: `Node.js` `Express` `MongoDB` `React` `React Native (Expo)` `Socket.IO` `Razorpay` `OpenRouter LLM API`
-- 🔗 [Live Demo](https://coaching-management-system-three.vercel.app/) • [Android APK](https://expo.dev/accounts/rajankumarsingh/projects/sankalp/builds/35ebd860-dfad-4056-91d1-105a7ff1810d) • GitHub: *available on request*
+- 🔗 [Live Demo](https://coaching-management-system-three.vercel.app/) • [Android APK](https://expo.dev/accounts/rajankumarsingh/projects/sankalp/builds/35ebd860-dfad-4056-91d1-105a7ff1810d) 
 ---
 ### 🍽️ QR Food Ordering System
 > QR-based restaurant ordering platform with a tool-calling AI chatbot and full real-time order pipeline.
