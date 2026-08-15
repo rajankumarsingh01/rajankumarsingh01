@@ -39,15 +39,13 @@
 
 ### 🎓 Kaksha — Multi-Tenant Coaching Institute SaaS
 > Full-stack SaaS platform digitizing coaching institute operations across 5 roles, with an AI doubt-solving tutor built in.
-
+ 
 - Architected **multi-tenant data isolation** with a clean `Route → Controller → Service → Repository → Model` layering, serving Super Admin, Admin, Teacher, Student, and Parent roles.
 - JWT access/refresh authentication + role-based access control across 20+ API modules; Razorpay payments with webhook signature verification.
 - Shipped a React Native (Expo) mobile app alongside the admin web dashboard; passed a **118-file internal security audit**.
 - Stack: `Node.js` `Express` `MongoDB` `React` `React Native (Expo)` `Socket.IO` `Razorpay` `OpenRouter LLM API`
-- 🔗 GitHub: **[ADD REPO LINK]**
-
+- 🔗 [Live Demo](https://coaching-management-system-three.vercel.app/) • [Android APK](https://expo.dev/accounts/rajankumarsingh/projects/sankalp/builds/35ebd860-dfad-4056-91d1-105a7ff1810d) • GitHub: *available on request*
 ---
-
 ### 🍽️ QR Food Ordering System
 > QR-based restaurant ordering platform with a tool-calling AI chatbot and full real-time order pipeline.
 
@@ -65,8 +63,7 @@
 
 | Project | Description | Stack | Links |
 |---|---|---|---|
-| **CampusOne** | Multi-role grievance/complaint management app (mobile + admin) | React Native (Expo), Node.js, MongoDB | *[ADD LINK]* |
-| **AutoOps AI** | Agentic infrastructure monitoring system | Node.js, AI Agents | *[ADD LINK]* |
+| **CampusOne** | Multi-role grievance/complaint management app (mobile + admin) | React Native (Expo), Node.js, MongoDB | *[ADD LINK]* 
 | **DocFinder** | Claim-based platform to recover lost documents across India | React, Node.js, MongoDB, Cloudinary | [Live](https://docfounder-india.vercel.app/) • [GitHub](https://github.com/rajankumarsingh01/docfounder_india) |
 | **AI Interview Platform** | Voice-interactive AI mock-interview tool with performance analytics | React, Node.js, Firebase, OpenRouter | [Live](https://ai-interview-platform-client.onrender.com/) • [GitHub](https://github.com/rajankumarsingh01/AI_Interview_Platform) |
 
