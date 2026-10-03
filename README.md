@@ -38,6 +38,11 @@
 - Stack: `Node.js` `Express` `RabbitMQ` `MongoDB` `PostgreSQL` `React (Vite)` `Kubernetes` `OpenRouter LLM API`
 - 🔗 [GitHub](https://github.com/rajankumarsingh01/api_monitoring_with_ai_agents)
 
+<p align="center">
+  <img src="./assets/api-monitor-login.jpg" width="38%" alt="API Monitor dashboard login">
+  <br><sub>API Monitor dashboard (React + Vite)</sub>
+</p>
+
 <details>
 <summary><b>🧭 See the architecture</b></summary>
 
