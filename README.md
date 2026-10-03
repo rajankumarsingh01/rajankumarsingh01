@@ -89,6 +89,12 @@ A cheap statistical check decides *when* something is wrong, so the LLM is only 
 - Stack: `Node.js` `Express` `MongoDB` `React` `React Native (Expo)` `FastAPI` `LangGraph` `Razorpay`
 - 🔗 [Live Demo](https://coaching-management-system-three.vercel.app/) • [GitHub](https://github.com/rajankumarsingh01/coaching_management_system) • [Android APK](https://expo.dev/accounts/rajankumarsingh/projects/sankalp/builds/35ebd860-dfad-4056-91d1-105a7ff1810d)
 
+<p align="center">
+  <img src="./assets/kaksha-dashboard.jpg" width="68%" alt="Kaksha admin dashboard">
+  <img src="./assets/kaksha-mobile.jpg" width="20%" alt="Kaksha mobile app login">
+  <br><sub>Admin web dashboard (React) and companion Android app (React Native)</sub>
+</p>
+
 <details>
 <summary><b>🧠 Design decisions</b></summary>
 <br>
@@ -114,6 +120,12 @@ RAGAS was too heavy for the free-tier setup, so a small script covers what was a
 - **76 automated tests** (Jest + Supertest) with a GitHub Actions CI/CD pipeline; Sentry error monitoring in production.
 - Stack: `Next.js` `TypeScript` `Node.js` `MongoDB` `Redis` `Socket.IO` `Razorpay`
 - 🔗 [Live Demo](https://qr-food-ordering-system-nine.vercel.app) • [GitHub](https://github.com/rajankumarsingh01/qr_food_ordering_system)
+
+<p align="center">
+  <img src="./assets/qr-landing.jpg" width="30%" alt="QR Food landing page">
+  <img src="./assets/qr-menu.jpg" width="62%" alt="QR Food menu page">
+  <br><sub>Landing page with customer, admin and kitchen entry points, and the table-side menu</sub>
+</p>
 
 <details>
 <summary><b>🧠 Design decisions</b></summary>
@@ -175,11 +187,7 @@ Deepening my understanding of container orchestration, multi-agent AI pipelines,
 ### 🕒 Recently shipped
 
 <!--RECENT_ACTIVITY:START-->
-- [**Mern_Portfolio**](https://github.com/rajankumarsingh01/Mern_Portfolio) · _pushed 7h ago_
-- [**devmark**](https://github.com/rajankumarsingh01/devmark) · _pushed 1d ago_
-- [**rajan-copilot**](https://github.com/rajankumarsingh01/rajan-copilot) — AI-powered dev copilot — built phase-by-phase while learning Agentic AI · _pushed 13d ago_
-- [**coaching_management_system**](https://github.com/rajankumarsingh01/coaching_management_system) · _pushed 14d ago_
-- [**fluentfeed-practice-speak**](https://github.com/rajankumarsingh01/fluentfeed-practice-speak) · _pushed 1 mo ago_
+- Updating soon…
 <!--RECENT_ACTIVITY:END-->
 
 <p align="center">
