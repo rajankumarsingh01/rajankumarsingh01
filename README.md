@@ -38,6 +38,30 @@
 - Stack: `Node.js` `Express` `RabbitMQ` `MongoDB` `PostgreSQL` `React (Vite)` `Kubernetes` `OpenRouter LLM API`
 - 🔗 [GitHub](https://github.com/rajankumarsingh01/api_monitoring_with_ai_agents)
 
+<details>
+<summary><b>🧭 See the architecture</b></summary>
+
+```mermaid
+flowchart LR
+    API["Monitored APIs"] -->|metrics & events| BUS
+
+    subgraph BUS["RabbitMQ event bus"]
+        direction LR
+        S1["1 · Alerting<br/>rule-based"] --> S2["2 · Anomaly detection<br/>Z-score"]
+        S2 --> S3["3 · Root-cause analysis<br/>LLM via OpenRouter"]
+        S3 --> S4["4 · Remediation planner<br/>risk-scored"]
+    end
+
+    S4 -->|low risk| K8S["Kubernetes API<br/>restart / scale"]
+    S4 -->|high risk| HUM["Human approval<br/>React dashboard"]
+    HUM -->|approved| K8S
+    BUS -. "retries with backoff,<br/>then dead-letter" .-> DLQ[("Dead Letter Queue")]
+    BUS --> DB[("MongoDB · PostgreSQL<br/>incidents & data")]
+    DB --> DASH["React dashboard<br/>live incidents"]
+```
+
+</details>
+
 ---
 
 ### 🎓 Kaksha — Multi-Tenant Coaching Institute SaaS + Agentic AI Microservice
