@@ -62,6 +62,21 @@ flowchart LR
 
 </details>
 
+<details>
+<summary><b>🧠 Design decisions</b></summary>
+<br>
+
+**Why a human-approval step before some fixes?**  
+Restarting or scaling a service is low-risk, but some fixes can make an outage worse. Each fix is risk-scored: low-risk ones run automatically, high-risk ones wait for approval on the dashboard.
+
+**Why a Circuit Breaker, retries and Dead Letter Queues?**  
+So a failing service never quietly drops data. Messages are retried with backoff, and anything that still fails is dead-lettered where it can be inspected instead of being lost.
+
+**Why detect anomalies with Z-score before calling the LLM?**  
+A cheap statistical check decides *when* something is wrong, so the LLM is only asked to explain real anomalies instead of every metric.
+
+</details>
+
 ---
 
 ### 🎓 Kaksha — Multi-Tenant Coaching Institute SaaS + Agentic AI Microservice
@@ -74,6 +89,21 @@ flowchart LR
 - Stack: `Node.js` `Express` `MongoDB` `React` `React Native (Expo)` `FastAPI` `LangGraph` `Razorpay`
 - 🔗 [Live Demo](https://coaching-management-system-three.vercel.app/) • [GitHub](https://github.com/rajankumarsingh01/coaching_management_system) • [Android APK](https://expo.dev/accounts/rajankumarsingh/projects/sankalp/builds/35ebd860-dfad-4056-91d1-105a7ff1810d)
 
+<details>
+<summary><b>🧠 Design decisions</b></summary>
+<br>
+
+**Why is the AI a separate FastAPI service?**  
+The LangChain/LangGraph stack is Python-first, and keeping it out of the Node backend lets the core platform and the AI side change and deploy independently. The backend calls it over internal HTTP.
+
+**Why RAG instead of a plain LLM answer?**  
+The tutor should answer from the institute's own notes, not from general knowledge. A LangGraph flow retrieves, answers, then checks itself before returning.
+
+**Why a custom eval script instead of RAGAS?**  
+RAGAS was too heavy for the free-tier setup, so a small script covers what was actually needed.
+
+</details>
+
 ---
 
 ### 🍽️ QR Food Ordering System
@@ -84,6 +114,18 @@ flowchart LR
 - **76 automated tests** (Jest + Supertest) with a GitHub Actions CI/CD pipeline; Sentry error monitoring in production.
 - Stack: `Next.js` `TypeScript` `Node.js` `MongoDB` `Redis` `Socket.IO` `Razorpay`
 - 🔗 [Live Demo](https://qr-food-ordering-system-nine.vercel.app) • [GitHub](https://github.com/rajankumarsingh01/qr_food_ordering_system)
+
+<details>
+<summary><b>🧠 Design decisions</b></summary>
+<br>
+
+**Why function-calling instead of a free-form chatbot?**  
+`search_menu` and `get_order_status` fetch real data, so answers come from the live menu and order state instead of guesses.
+
+**Why Redis for chat memory?**  
+Session context needs to be fast and short-lived, so Redis keeps it per session without touching the main database.
+
+</details>
 
 ---
 
@@ -129,6 +171,12 @@ Deepening my understanding of container orchestration, multi-agent AI pipelines,
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=rajankumarsingh01&theme=tokyonight&hide_border=true" />
 </p>
+
+### 🕒 Recently shipped
+
+<!--RECENT_ACTIVITY:START-->
+- Updating soon…
+<!--RECENT_ACTIVITY:END-->
 
 <p align="center">
   <sub>Building at the intersection of full-stack engineering and agentic AI — one deployed project at a time.</sub>
