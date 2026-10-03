@@ -18,7 +18,6 @@
 ### 💫 About Me
 
 - 🎓 Final-year B.Tech CSE student, building **production-ready systems**, not tutorial clones.
-- 💻 Currently a **Full Stack Developer Intern at FluentFeed**, shipping features into a real AI English-learning codebase (React, TypeScript, Node.js, Gemini API).
 - 🧠 Core focus: **MERN stack + Agentic AI** — RAG, LangGraph workflows, tool-calling chatbots, event-driven architecture.
 - 🛠️ Comfortable across the stack: React/Next.js on the frontend, Node.js/Express/FastAPI on the backend, MongoDB/PostgreSQL/Redis for data, Docker/Kubernetes for deployment.
 - 🚀 Live demos and source code are linked under every project wherever they exist.
