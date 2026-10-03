@@ -175,7 +175,11 @@ Deepening my understanding of container orchestration, multi-agent AI pipelines,
 ### 🕒 Recently shipped
 
 <!--RECENT_ACTIVITY:START-->
-- Updating soon…
+- [**Mern_Portfolio**](https://github.com/rajankumarsingh01/Mern_Portfolio) · _pushed 7h ago_
+- [**devmark**](https://github.com/rajankumarsingh01/devmark) · _pushed 1d ago_
+- [**rajan-copilot**](https://github.com/rajankumarsingh01/rajan-copilot) — AI-powered dev copilot — built phase-by-phase while learning Agentic AI · _pushed 13d ago_
+- [**coaching_management_system**](https://github.com/rajankumarsingh01/coaching_management_system) · _pushed 14d ago_
+- [**fluentfeed-practice-speak**](https://github.com/rajankumarsingh01/fluentfeed-practice-speak) · _pushed 1 mo ago_
 <!--RECENT_ACTIVITY:END-->
 
 <p align="center">
