@@ -2,7 +2,7 @@
 <h3 align="center">Full-Stack MERN Developer building production systems with Agentic AI</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1000&center=true&width=650&lines=Full+Stack+MERN+Developer;Node.js+%7C+React+%7C+MongoDB+%7C+PostgreSQL;Agentic+AI+%7C+LangGraph+%7C+LLM+Integrations;Event-Driven+Systems+with+RabbitMQ+%2B+Kubernetes;Shipping+Production-Grade+Deployments">
+  <img src="./assets/terminal.svg" alt="Rajan Kumar Singh - terminal profile card" width="100%">
 </p>
 
 <p align="center">
@@ -45,7 +45,9 @@
 - Shipped a React Native (Expo) mobile app alongside the admin web dashboard; passed a **118-file internal security audit**.
 - Stack: `Node.js` `Express` `MongoDB` `React` `React Native (Expo)` `Socket.IO` `Razorpay` `OpenRouter LLM API`
 - 🔗 [Live Demo](https://coaching-management-system-three.vercel.app/) • [Android APK](https://expo.dev/accounts/rajankumarsingh/projects/sankalp/builds/35ebd860-dfad-4056-91d1-105a7ff1810d) 
+
 ---
+
 ### 🍽️ QR Food Ordering System
 > QR-based restaurant ordering platform with a tool-calling AI chatbot and full real-time order pipeline.
 
@@ -63,7 +65,7 @@
 
 | Project | Description | Stack | Links |
 |---|---|---|---|
-| **CampusOne** | Multi-role grievance/complaint management app (mobile + admin) | React Native (Expo), Node.js, MongoDB | *[ADD LINK]* 
+| **CampusOne** | Multi-role grievance/complaint management app (mobile + admin) | React Native (Expo), Node.js, MongoDB | *[ADD LINK]* |
 | **DocFinder** | Claim-based platform to recover lost documents across India | React, Node.js, MongoDB, Cloudinary | [Live](https://docfounder-india.vercel.app/) • [GitHub](https://github.com/rajankumarsingh01/docfounder_india) |
 | **AI Interview Platform** | Voice-interactive AI mock-interview tool with performance analytics | React, Node.js, Firebase, OpenRouter | [Live](https://ai-interview-platform-client.onrender.com/) • [GitHub](https://github.com/rajankumarsingh01/AI_Interview_Platform) |
 
