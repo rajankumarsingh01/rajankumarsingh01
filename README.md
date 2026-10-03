@@ -2,7 +2,7 @@
 <h3 align="center">Full-Stack MERN Developer building production systems with Agentic AI</h3>
 
 <p align="center">
-  <img src="./assets/terminal.svg" alt="Rajan Kumar Singh - terminal profile card" width="100%">
+  <img src="./assets/terminal-v2.svg" alt="Rajan Kumar Singh - terminal profile card" width="100%">
 </p>
 
 <p align="center">
