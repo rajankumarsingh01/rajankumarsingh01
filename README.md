@@ -1,5 +1,6 @@
-<h1 align="center">Hi, I'm Rajan Kumar Singh 👋</h1>
-<h3 align="center">Full-Stack MERN Developer building production systems with Agentic AI</h3>
+<p align="center">
+  <img src="./assets/typing-header.svg" alt="Hi, I'm Rajan Kumar Singh - Full-Stack MERN Developer building production systems with Agentic AI" width="100%">
+</p>
 
 <p align="center">
   <img src="./assets/terminal-v3.svg" alt="Rajan Kumar Singh - terminal profile card" width="100%">
