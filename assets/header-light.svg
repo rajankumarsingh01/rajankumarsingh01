@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 170" width="1000" height="170" role="img" aria-label="Rajan Kumar Singh - Full-Stack Engineer, MERN and Agentic AI">
+  <rect x="0.5" y="0.5" width="999" height="169" rx="12" fill="none" stroke="#d0d7de"/>
+  <g>
+    <animate attributeName="opacity" values="0;1" dur="0.8s" fill="freeze"/>
+    <text x="48" y="48" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="3" fill="#0969da">FULL-STACK ENGINEER · AGENTIC AI</text>
+
+    <circle cx="782" cy="44" r="3.5" fill="#1a7f37">
+      <animate attributeName="opacity" values="1;0.4;1" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <text x="952" y="48" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="1" fill="#656d76">OPEN TO INTERNSHIPS</text>
+
+    <text x="48" y="102" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="46" font-weight="700" letter-spacing="-0.5" fill="#1f2328">Rajan Kumar Singh</text>
+    <text x="48" y="136" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#656d76">Building production-grade systems with MERN and Agentic AI.</text>
+  </g>
+  <rect x="48" y="152" width="0" height="2" rx="1" fill="#0969da">
+    <animate attributeName="width" values="0;56" dur="0.9s" begin="0.4s" fill="freeze"/>
+  </rect>
+</svg>
